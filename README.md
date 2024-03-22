@@ -1,5 +1,12 @@
 # Cartoomization
-
+### Feature
+- 이미지를 이하의 순으로 카툰화 한다.
+1. canny로 엣지 검출
+2. getStructuringElement로 엣지 강화
+3. edge를 마스크로 쓰기 위해 반전
+4. stylization으로 픽셀화
+5. 엣지와 픽셀화 이미지 합성
+6. 원본 이미지와 카툰 이미지를 9:11 비율로 합성
 ### Good Case
 ![image](https://github.com/andrew0416/Cartoonization/assets/5708754/ff9767c9-d267-4046-8341-a924ce8bd2d3)
 ![image](https://github.com/andrew0416/Cartoonization/assets/5708754/37d4b325-760d-4f7d-adc4-bad6a6db963e)
